@@ -13,8 +13,13 @@ export interface RegisterUserRequest{
 }
 
 export interface RegisterUserResponse{
-  flag : boolean
-  message : string
+  id : string
+  name : string
+  lastName: string
+  password: string
+  confrimPassword: string
+  dni : string
+  email : string
 }
 
 class accountService{

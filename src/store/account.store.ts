@@ -7,8 +7,14 @@ export type AccountState = {
 }
 
 export const defaultUser : RegisterUserResponse = {
- flag: false,
-  message: "",
+    id : '',
+    name : '',
+    lastName: '',
+    password: '',
+    confrimPassword: '',
+    dni : '',
+    email : '',
+
 }
 
 export const useAccountStore = defineStore('app', {

@@ -1,6 +1,18 @@
 <script lang="ts" setup>
   import HelloWorld from '@/components/HelloWorld.vue'
   import Footer from '@/components/Footer.vue'
+</script>
+
+<template>
+  <HelloWorld />
+  <Footer />
+</template>
+
+
+
+<!-- <script lang="ts" setup>
+  import HelloWorld from '@/components/HelloWorld.vue'
+  import Footer from '@/components/Footer.vue'
   import { useAccountStore } from '@/store/account.store';
   import { onBeforeMount } from 'vue';
 
@@ -23,6 +35,4 @@
   <HelloWorld />
   {{ accountStore.user }}
   <Footer />
-</template>
-
-
+</template> -->
