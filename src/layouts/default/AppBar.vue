@@ -1,3 +1,17 @@
+<script lang="ts">
+  export default {
+    data: () => ({
+      items: [
+        { title: 'Click Me 1' },
+        { title: 'Click Me 2' },
+        { title: 'Click Me 3' },
+        { title: 'Click Me 4' },
+      ],
+    }),
+  }
+</script>
+
+
 <template>
   <v-app-bar color="rgba(254, 174, 251, 1)">
     <template v-slot:image>
@@ -50,15 +64,4 @@
   </v-app-bar>
 </template>
 
-<script lang="ts">
-  export default {
-    data: () => ({
-      items: [
-        { title: 'Click Me 1' },
-        { title: 'Click Me 2' },
-        { title: 'Click Me 3' },
-        { title: 'Click Me 4' },
-      ],
-    }),
-  }
-</script>
+

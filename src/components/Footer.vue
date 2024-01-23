@@ -1,3 +1,16 @@
+<script lang="ts">
+  export default {
+    data: () => ({
+      icons: [
+        'mdi-facebook',
+        'mdi-twitter',
+        'mdi-linkedin',
+        'mdi-instagram',
+      ],
+    }),
+  }
+</script>
+
 <template>
   <v-footer class="d-flex flex-column bg-grey-lighten-5">
     <div class="bg-pink-lighten-5 d-flex w-100 align-center px-4">
@@ -21,15 +34,4 @@
   </v-footer>
 </template>
 
-<script lang="ts">
-  export default {
-    data: () => ({
-      icons: [
-        'mdi-facebook',
-        'mdi-twitter',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
-    }),
-  }
-</script>
+

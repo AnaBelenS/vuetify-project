@@ -1,3 +1,21 @@
+<script lang="ts">
+export default {
+  data: () => ({
+    name: "products",
+    loading: false,
+    selection: 1,
+  }),
+
+  methods: {
+    galeria() {
+      this.loading = true;
+
+      setTimeout(() => (this.loading = false), 2000);
+    },
+  },
+};
+</script>
+
 <template>
   <v-card
     color="grey-lighten-5"
@@ -38,20 +56,4 @@
   </v-card>
 </template>
 
-<script lang="ts">
-export default {
-  data: () => ({
-    name: "products",
-    loading: false,
-    selection: 1,
-  }),
 
-  methods: {
-    galeria() {
-      this.loading = true;
-
-      setTimeout(() => (this.loading = false), 2000);
-    },
-  },
-};
-</script>
